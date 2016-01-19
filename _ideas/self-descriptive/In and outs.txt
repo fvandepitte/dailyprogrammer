@@ -1,0 +1,52 @@
+**Sample 1**
+
+*In*
+
+    3
+
+*Out*
+
+    No self-descrisive number found
+
+**Sample 2**
+
+*In*
+
+    4
+
+*Out*
+
+    1210
+    2020
+
+**Sample 3**
+
+*In*
+
+    5
+
+*Out*
+
+    21200
+
+**Sample 4**
+
+*In*
+
+    8
+
+*Out*
+
+    42101000
+
+**Challenge Inputs**
+
+    10
+    13
+    15
+
+
+
+6210001000
+9210000001000
+No self-descrisive number found
