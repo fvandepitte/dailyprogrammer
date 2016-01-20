@@ -28,7 +28,7 @@
     numberDescription x = map (count x) [0 .. length x - 1]
 
     toOutput :: [[Int]] -> String
-    toOutput [] = "No self-descrisive number found.\n"
+    toOutput [] = "No self-descriptive number found.\n"
     toOutput xs = unlines $ map (concatMap show) xs
 
     main = interact (toOutput . filter isSelfDescriptive . map numberDescription . filledPartitionsFor . read)
